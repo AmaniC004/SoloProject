@@ -98,7 +98,7 @@ export default function Navbar() {
               className="block px-3 py-2 rounded-md hover:bg-blue-700 transition-colors duration-200 font-medium"
               onClick={() => setIsOpen(false)}
             >
-              {link.name}
+              {link.name} 
             </a>
           ))}
         </div>
