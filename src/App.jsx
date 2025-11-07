@@ -4,6 +4,7 @@ import txtBx from './assets/text.svg';
 import arrBtn from './assets/Button.svg';
 import timeBtn from './assets/time.svg';
 import doctor from './assets/doctor.svg';
+import AppointmentForm from "./components/bookingform.jsx";
 
 function App() {
   return (
@@ -37,7 +38,12 @@ function App() {
 
         <div className="h-10"></div>
           <img src={doctor} alt="Doctor" className="mx-auto" />
-      </div>
+        </div>
+
+        <div>
+          <AppointmentForm />
+        </div>
+
     </div>
   )
 }
