@@ -15,8 +15,8 @@ export default function AppointmentForm() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white flex items-center justify-center p-4">
-      <div className="w-full max-w-5xl bg-white rounded-3xl shadow-2xl p-8 md:p-12">
+    <div className="min-h-screen flex items-center justify-center p-4">
+      <div className="bg-white w-full max-w-5xl rounded-3xl shadow-2xl p-8 md:p-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center">
           Book Your Appointment
         </h2>
