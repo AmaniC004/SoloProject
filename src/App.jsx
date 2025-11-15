@@ -25,7 +25,7 @@ function App() {
         <p className="text-white">Wellness Hospital will always serve you wholeheartedly. Health is a priority.</p>
         <div className="flex flex-col sm:flex-row">
           <button onClick={() => document.getElementById('appointments').scrollIntoView({ behavior: 'smooth' })}
-            className="mt-6 px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors flex items-center gap-2">
+            className="mt-6 px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors flex items-center justify-center gap-2">
             Book Appointment
             <img src={arrBtn} alt="arrow" className="w-4 h-4" />
           </button>
